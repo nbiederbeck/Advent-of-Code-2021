@@ -36,7 +36,7 @@ impl From<&str> for Shoal {
                 Ok(a) => {
                     fish[a] += 1;
                 }
-                _ => {},
+                _ => {}
             }
         }
 
